@@ -1,0 +1,5 @@
+install:
+  - touch myCertificate.pem myCertificate.p12
+
+script:
+  - make archive
